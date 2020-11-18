@@ -1,5 +1,4 @@
-const User = require("./user.js");
+const welcome = require("./welcome");
  
-let eugene = new User("Eugene", 32);
-eugene.sayHi();
-eugene.displayInfo();
+welcome.getMorningMessage();
+welcome.getEveningMessage();
